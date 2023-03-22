@@ -1,5 +1,4 @@
-import numpy as np
-import cv2
+
 import subprocess
 import os
 import importlib
@@ -9,6 +8,10 @@ os.system("clear")
 print("Downloading All Requirements ...\n\n")
 os.system("pip3 install numpy")
 os.system("pip3 install flask")
+os.system("pip install opencv-python")
+os.system("clear")
+import numpy as np
+import cv2
 
 time.sleep(3)
 
